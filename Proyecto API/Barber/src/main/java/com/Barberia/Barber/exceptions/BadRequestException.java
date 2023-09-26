@@ -1,0 +1,8 @@
+package com.Barberia.Barber.exceptions;
+
+public class BadRequestException extends Exception{
+
+    public BadRequestException(String message) {
+        super(message);
+    }
+}

@@ -1,0 +1,289 @@
+ body {
+      background-color: #f1f1f1;
+      margin: 5;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+    /* Estilos CSS para el menú */
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      background-color: #BFE3E3 ;
+      display: flex;
+    }
+
+    li {
+
+      padding: 10px 20px;
+
+    }
+
+    li:hover {
+
+      background-color: #ddd;
+
+    }
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+
+    /* Estilos para los botones */
+    #contenido {
+          text-align: left;
+
+    }
+
+    #contenido button {
+      background-color: #f1f1f1;
+      border: none;
+      color: black;
+      padding: 10px 20px;
+      cursor: pointer;
+      margin-right: 10px;
+    }
+
+    #contenido button:hover {
+
+      background-color: #ddd;
+
+    }
+    #contenido div#Barberos {
+      border-top: 1px solid black;
+      padding-top: 5px;
+    }
+    #contenido div#Clientes {
+          border-top: 1px solid black;
+          padding-top: 5px;
+    }
+    #contenido div#Sucursales {
+          border-top: 1px solid black;
+          padding-top: 5px;
+    }
+    #contenido div#Turnos {
+          border-top: 1px solid black;
+          padding-top: 5px;
+    }
+
+
+.lista-barberos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-gap: 10px;
+  max-width: 1400px; /* Ajusta el ancho máximo según sea necesario */
+  margin: 0 auto;
+  list-style-type: none; /* Elimina los puntos de la lista */
+  padding: 0;
+}
+
+.lista-barberos li {
+  background-color: #f1f1f1;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ddd;
+}
+
+
+
+#tituloBarberos {
+  font-size: 24px; /* Tamaño de fuente */
+  font-weight: bold; /* Peso de la fuente */
+  margin-top: 25px;
+  margin-bottom: 2px; /* Espacio inferior para separar del contenido */
+}
+
+
+/* Estilos para el formulario de creación de barbero */
+#formularioCrear {
+  width: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f1f1f1;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#formularioCrear label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#formularioCrear input {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+#formularioCrear button {
+  background-color: #BFE3E3 ;
+  color: black;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#formularioCrear button:hover {
+  background-color: gray;
+}
+.titulo-crear {
+    font-size: 24px;
+    color: black;
+    font-weight: bold; /* Peso de la fuente */
+    margin-top: 25px;
+    margin-bottom: 2px;
+}
+
+
+
+
+/*Estilos para resultado de busqueda*/
+/* Estilo para el contenedor de resultados */
+#resultadoBusqueda {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* Estilo para las etiquetas */
+#resultadoBusqueda label {
+    font-weight: bold;
+    display: inline-block;
+    width: 150px;
+}
+
+/* Estilo para los campos de entrada */
+#resultadoBusqueda input[type="text"] {
+    width: 300px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+/* Estilo para el título de resultados */
+#resultadoBusqueda h2 {
+    margin-bottom: 10px;
+}
+
+
+.formulario-buscar {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #f9f9f9;
+}
+
+.titulo-buscar {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+
+#formularioBuscar button {
+    padding: 10px 20px;
+    background-color: #BFE3E3;
+    color: black;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+#formularioBuscar button:hover {
+    background-color: gray;
+}
+
+
+#formularioBuscar label[for="dni"] {
+    font-weight: bold;
+}
+
+
+/* Estilos para los botones de editar y eliminar */
+.editar-button {
+    padding: 10px 20px;
+    margin: 5px;
+    color: black;
+    border: 1px solid #ccc; /* Añade un borde sólido de 1px */
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 10%;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+
+.editar-button:hover {
+    background-color: gray;
+}
+
+ .eliminar-button{
+     padding: 10px 20px;
+     background-color: #BFE3E3;
+     margin: 5px;
+     color: black;
+     border: 1px;
+     cursor: pointer;
+     font-size: 16px;
+     border-radius: 5px;
+     width: 10%;
+     text-align: center;
+ }
+
+.eliminar-button:hover{
+    background-color: gray;
+}
+
+
+
+
+/*AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA*/
+
+
+
+/* Estilos para la sección de creación de turnos */
+.formulario-crearTurnos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+.input-group {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.formulario-crearTurnos label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.formulario-crearTurnos input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.formulario-crearTurnos button {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+.formulario-crearTurnos button:hover {
+    background-color: black;
+}

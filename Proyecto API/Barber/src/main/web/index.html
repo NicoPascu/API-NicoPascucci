@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Menu Principal</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="script.js"></script>
+</head>
+<body>
+<ul>
+  <li><a href="#" onclick="mostrarContenido('Barberos')">Barberos</a></li>
+  <li><a href="#" onclick="mostrarContenido('Clientes')">Clientes</a></li>
+  <li><a href="#" onclick="mostrarContenido('Sucursales')">Sucursales</a></li>
+  <li><a href="#" onclick="mostrarContenido('Turnos')">Turnos</a></li>
+
+</ul>
+<div id="contenido">
+  <div id="Barberos" style="display: none;">
+    <h1 style="font-size: 16px;">Barberos</h1>
+    <button onclick="listarBarberos()">Listar</button>
+    <button onclick="crearBarbero()">Crear</button>
+    <button onclick="buscarBarberodni()">Gestionar</button>
+  </div>
+
+  <div id="Clientes" style="display: none;">
+    <h1 style="font-size: 16px;">Clientes</h1>
+    <button onclick="listarClientes()">Listar</button>
+    <button onclick="crearCliente()">Crear</button>
+    <button onclick="buscarClientedni()">Gestionar</button>
+  </div>
+
+  <div id="Sucursales" style="display: none;">
+    <h1 style="font-size: 16px;">Sucursales</h1>
+    <button onclick="listarSucursales()">Listar</button>
+    <button onclick="crearSucursal()">Crear</button>
+    <button onclick="buscarSucursalNro()">Gestionar</button>
+  </div>
+
+  <div id="Turnos" style="display: none;">
+    <h1 style="font-size: 16px;">Turnos</h1>
+    <button onclick="listarTurnos()">Listar</button>
+    <button onclick="crearTurno()">Crear</button>
+    <button onclick="buscarTurnoID()">Gestionar</button>
+  </div>
+
+</div>
+</body>
+</html>
+
